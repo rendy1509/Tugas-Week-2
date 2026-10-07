@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f7fa;
+  color: #222;
+  text-align: center;
+  margin: 0;
+  padding: 50px 20px;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #222;
+  object-fit: cover;
+}
+
+h1 { margin: 20px 0 6px; font-size: 1.6rem; }
+p  { margin: 0 0 30px; color: #444; }
+
+.sosmed {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.sosmed a {
+  text-decoration: none;
+  color: #222;
+  font-size: 0.9rem;
+}
+
+.ikon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 6px;
+  border: 2px solid #222;
+  border-radius: 50%;
+  font-weight: bold;
+  background: #fff;
+}
+
+.sosmed a:hover .ikon { background: #222; color: #fff; }
+
+footer { margin-top: 50px; font-size: 0.85rem; color: #777; }
